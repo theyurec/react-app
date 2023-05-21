@@ -1,0 +1,183 @@
+.nav.hidden {
+  transform: translateY(-100%); 
+}
+
+.header__top {
+  display: flex;
+  margin: 1.125rem 0 3rem;
+
+}
+
+.logo {
+  position: absolute;
+  top: 2.375rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.search__img {
+  cursor: pointer;
+}
+
+.nav {
+  margin-bottom: 4.0625rem;
+  display: flex;
+  justify-content: center;
+  height: 2.5rem;
+  position: sticky;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+.show-menu {
+  transform: translateY(0);
+}
+
+.hide-menu {
+  transform: translateY(-150%);
+}
+
+
+.nav-list {
+  padding: 1.25rem 0 1.25rem 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4.25rem; 
+  background-color: #fff;
+  border-top: 1px solid #E9E9E9;
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.nav-list__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 2rem;
+  position: relative;
+}
+
+.nav-list__item:last-child {
+  margin-right: 0;
+}
+
+.nav__submenu__link {
+  font-weight: 400;
+  font-size: 13px;
+  
+}
+
+
+.nav-list__subItem {
+  position: absolute;
+  top: 100%;
+  display: none;
+  width: 176px;
+}
+
+.nav-list__item:hover .nav-list__subItem{
+  display: block;
+}
+
+.nav-list__subItem-wrapper {
+  padding-top: 1.0625rem;;
+  background-color: inherit;
+}
+
+.nav-list__subItem-wrapper2 {
+  padding: 0.6875rem 1.25rem 1.8125rem 1.25rem;
+  border: 1px solid #E9E9E9;
+  background-color: #fff;
+}
+
+.nav__submenu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0 0.5rem;
+}
+
+.nav__submenu-link:hover {
+  color: #969696;
+  transform: translateX(5px);
+}
+
+.nav__submenu-line {
+  background-color: #E9E9E9;
+  height: 1px;
+}
+
+
+.nav-list__link {
+  font-weight: 500;
+  margin-right: 0.3125rem;
+}
+
+.burger-btn {
+  display: none;
+  width: 25px;
+  height: 16px;
+  position: absolute;
+  top: 36px;
+  left: 20px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.burger-btn.active {
+  left: 17.5rem;
+  position: fixed;
+}
+
+.burger-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 20px;
+  background-color: #000;
+  height: 3px;
+
+
+}
+.burger-btn span {
+  content: '';
+  position: absolute;
+  top: 6px;
+  width: 20px;
+  background-color: #000;
+  height: 3px;
+
+  
+}
+
+.burger-btn::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 20px;
+  background-color: #000;
+  height: 3px;
+}
+
+
+
+@media (max-width: 790px ) {
+  .burger-btn {
+    display: block;
+  }
+  .nav-list {
+    display: none;
+  }
+  
+}
+
