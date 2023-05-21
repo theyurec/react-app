@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-app/static/css/main.615241bb.css",
+    "main.js": "/react-app/static/js/main.46f781e5.js",
+    "static/js/787.dd0d71cf.chunk.js": "/react-app/static/js/787.dd0d71cf.chunk.js",
+    "static/media/Roboto-Bold.eot": "/react-app/static/media/Roboto-Bold.beedb83a23459a016fdb.eot",
+    "static/media/Roboto-Medium.eot": "/react-app/static/media/Roboto-Medium.f647e01a83216c95b035.eot",
+    "static/media/Roboto-Regular.eot": "/react-app/static/media/Roboto-Regular.f383469de04ef0703547.eot",
+    "static/media/Roboto-Medium.woff": "/react-app/static/media/Roboto-Medium.2e8a75432e577e4aa546.woff",
+    "static/media/Roboto-Bold.woff": "/react-app/static/media/Roboto-Bold.f706d6ca22893a62d3c8.woff",
+    "static/media/Roboto-Regular.woff": "/react-app/static/media/Roboto-Regular.a3cfa1da9af6de7449f2.woff",
+    "static/media/Roboto-Medium.woff2": "/react-app/static/media/Roboto-Medium.6ae3b297b84ffbf68045.woff2",
+    "static/media/Roboto-Regular.woff2": "/react-app/static/media/Roboto-Regular.5aed06c3c69cd1d41aa5.woff2",
+    "static/media/Roboto-Bold.woff2": "/react-app/static/media/Roboto-Bold.bdcd68892caf92ad314f.woff2",
+    "index.html": "/react-app/index.html",
+    "static/media/arrow_right.svg": "/react-app/static/media/arrow_right.4203022e3c69bcf64f0ce441d3a42308.svg",
+    "static/media/arrow_bottom.svg": "/react-app/static/media/arrow_bottom.9bbffe505c0f0512cb2b4f58e64dec91.svg",
+    "main.615241bb.css.map": "/react-app/static/css/main.615241bb.css.map",
+    "main.46f781e5.js.map": "/react-app/static/js/main.46f781e5.js.map",
+    "787.dd0d71cf.chunk.js.map": "/react-app/static/js/787.dd0d71cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.615241bb.css",
+    "static/js/main.46f781e5.js"
+  ]
+}
